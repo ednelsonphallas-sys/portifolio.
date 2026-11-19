@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Ednelson Armando Chicuava</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho com Navegação e Botão de Idioma -->
+    <header>
+        <div class="container nav-container">
+            <h1 class="logo">Ednelson<span>.TIC</span></h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#inicio" data-pt="Início" data-en="Home">Início</a></li>
+                    <li><a href="#sobre" data-pt="Sobre Mim" data-en="About Me">Sobre Mim</a></li>
+                    <li><a href="#projetos" data-pt="Projectos" data-en="Projects">Projectos</a></
+li>
+                    <li><a href="#contactos" data-pt="Contactos" data-en="Contacts">Contactos</a></
+li>
+                </ul>
+            </nav>
+            <button class="lang-switch" onclick="toggleLanguage()">PT / EN</button>
+        </div>
+    </header>
+    <!-- Secção Início com Foto de Perfil em Moldura Circular -->
+    <section id="inicio" class="hero">
+        <div class="container hero-content">
+            <div class="profile-frame">
+                <img src="perfil.jpg" alt="Ednelson Armando Chicuava" class="profile-pic">
+            </div>
+            <p class="greeting" data-pt="Olá, eu sou" data-en="Hello, I am">Olá, eu sou</p>
+            <h2>Ednelson Armando Chicuava</h2>
+            <h3 class="subtitle" data-pt="Técnico de Suporte Informático & Desenvolvedor Web" data
+en="IT Support Technician & Web Developer">Técnico de Suporte Informático & Desenvolvedor Web</h3>
+            <p class="hero-desc" data-pt="Formando em Suporte Informático (CV4) no IICAEG, focado 
+em redes, manutenção de sistemas e criação de páginas web." data-en="IT Support Student (CV4) at 
+IICAEG, focused on networking, system maintenance, and web development.">Formando em Suporte 
+Informático (CV4) no IICAEG, focado em redes, manutenção de sistemas e criação de páginas web.</p>
+            <a href="#projetos" class="btn-primary" data-pt="Ver Projectos" data-en="View 
+Projects">Ver Projectos</a>
+        </div>
+    </section>
+    <!-- Secção Sobre Mim com Tabela de Competências -->
+    <section id="sobre" class="section">
+        <div class="container">
+            <h2 class="section-title" data-pt="Sobre Mim" data-en="About Me">Sobre Mim</h2>
+            <div class="about-grid">
+                <div class="about-card">
+                    <p data-pt="Residente na Matola-Rio (Djuba), sou estudante do curso Técnico de 
+Suporte Informático no Instituto Industrial e de Computação Armando Emílio Guebuza (IICAEG). Tenho 
+experiência prática em diagnóstico de hardware, instalação de sistemas operativos, redes locais e 
+desenvolvimento web estático." data-en="Based in Matola-Rio (Djuba), I am an IT Support Technician 
+student at Instituto Industrial e de Computação Armando Emílio Guebuza (IICAEG). I have hands-on 
+Página 2 de 7
+experience in hardware diagnostics, OS installation, local networks, and static web 
+development.">Residente na Matola-Rio (Djuba), sou estudante do curso Técnico de Suporte 
+Informático no Instituto Industrial e de Computação Armando Emílio Guebuza (IICAEG). Tenho 
+experiência prática em diagnóstico de hardware, instalação de sistemas operativos, redes locais e 
+desenvolvimento web estático.</p>
+                </div>
+                <div class="table-card">
+                    <table class="skills-table">
+                        <thead>
+                            <tr>
+                                <th data-pt="Competência" data-en="Skill">Competência</th>
+                                <th data-pt="Descrição Técnica" data-en="Technical 
+Description">Descrição Técnica</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>HTML5 & CSS3</td><td>Estrutura semântica, Flexbox, Grid e 
+design responsivo</td></tr>
+                            <tr><td>Suporte Informático</td><td>Manutenção preventiva/corretiva e 
+instalação de SO</td></tr>
+                            <tr><td>Redes de Computadores</td><td>Cabeamento estruturado, 
+endereçamento IP e switches</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+Página 3 de 7
+Continuação do Código HTML (index.html)
+    <!-- Secção Portfólio de Projectos com Bordas e Imagens -->
+    <section id="projetos" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title" data-pt="Portfólio de Projectos" data-en="Project 
+Portfolio">Portfólio de Projectos</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img-border">
+                        <img src="foto lan.png" alt="Rede Local LAN">
+                    </div>
+                    <div class="project-info">
+                        <h3 data-pt="Infraestrutura de Rede Local" data-en="Local Network 
+Infrastructure">Infraestrutura de Rede Local</h3>
+                        <p data-pt="Configuração de rede LAN, crimpagem de cabos RJ45 e partilha de 
+recursos para escritório." data-en="LAN network setup, RJ45 cable crimping, and resource sharing 
+for an office.">Configuração de rede LAN, crimpagem de cabos RJ45 e partilha de recursos para 
+escritório.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img-border">
+                        <img src="foto manut.png" alt="Manutenção de Computadores">
+                    </div>
+                    <div class="project-info">
+                        <h3 data-pt="Manutenção e Diagnóstico de Hardware" data-en="Hardware 
+Maintenance & Diagnostics">Manutenção e Diagnóstico de Hardware</h3>
+                        <p data-pt="Montagem de componentes, limpeza interna, instalação de 
+Windows/Linux e drivers." data-en="Component assembly, internal cleaning, Windows/Linux 
+installation, and drivers.">Montagem de componentes, limpeza interna, instalação de Windows/Linux e 
+drivers.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img-border">
+                        <img src="foto portifolio.png" alt="Portfólio Web">
+                    </div>
+                    <div class="project-info">
+                        <h3 data-pt="Portfólio Web Responsivo" data-en="Responsive Web 
+Portfolio">Portfólio Web Responsivo</h3>
+                        <p data-pt="Página web desenvolvida com HTML5 e CSS3 com bordas estilizadas 
+e suporte bilingue." data-en="Web page built with HTML5 and CSS3 featuring styled borders and 
+bilingual support.">Página web desenvolvida com HTML5 e CSS3 com bordas estilizadas e suporte 
+bilingue.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Secção Contactos -->
+    <section id="contactos" class="section">
+        <div class="container contact-container">
+            <h2 class="section-title" data-pt="Contactos" data-en="Contacts">Contactos</h2>
+            <div class="contact-cards">
+                <div class="contact-item"><strong>Email:</strong> ednelsonphallas@gmail.com</div>
+                <div class="contact-item"><strong>Telefone:</strong> +258 86 315 2822 / +258 84 386 
+6189</div>
+                <div class="contact-item"><strong>Localização:</strong> Matola-Rio (Djuba), 
+Maputo</div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2026 Ednelson Armando Chicuava - IICAEG</p>
+    </footer>
+Página 4 de 7
+    <script>
+        let lang = 'pt';
+        function toggleLanguage() {
+            lang = lang === 'pt' ? 'en' : 'pt';
+            document.querySelectorAll('[data-pt]').forEach(el => {
+                el.textContent = el.getAttribute('data-' + lang);
+            });
+        }
+    </script>
+</body>
+</html>
